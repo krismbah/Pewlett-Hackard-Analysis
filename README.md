@@ -13,12 +13,15 @@ The purpose of this analysis is to help prepare Bobby’s manager for the “sil
 Using the ERD created in this module as a reference, create a Retirement Titles table that holds all the titles of employees who were born between January 1, 1952 and December 31, 1955. Because some employees may have multiple titles in the database—for example, due to promotions—we’ll need to use the DISTINCT ON statement to create a table that contains the most recent title of each employee. Then, use the COUNT() function to create a table that has the number of retirement-age employees by most recent job title. Finally, because we want to include only current employees in our analysis, be sure to exclude those employees who have already left the company. In order to conclude the aforementioned items, the following processes were undertaken:
 
 1. What are the data relationships between tables needed to create this deliverable?
-  2. 
-  - Looking at the ERD
+  - Looking at the entity relationship diagram (ERD) below, we were able to determine the relationships between the "employees" and "dept_employees" tables through the primary key (emp_no). 
 
 ERD:
 
 ![ERD](https://raw.githubusercontent.com/krismbah/Pewlett-Hackard-Analysis/main/ERD.png)
+
+
+2. How will we script the queries in order to create the following tables: "retirement_titles", "unique_titles", and "retiring_titles"?
+  - After the relationships between the initial tables became understood, the following three queries were scripted in order to generated the aforementioned tables, respectively:
 
 Deliverable 1:
 
@@ -27,6 +30,12 @@ Deliverable 1:
 
 ***Deliverable 2: The Employees Eligible for the Mentorship Program***
 Using the ERD you created in this module as a reference and your knowledge of SQL queries, create a mentorship-eligibility table that holds the current employees who were born between January 1, 1965 and December 31, 1965.
+
+1. What are the data relationships between tables needed to create this deliverable?
+  - Looking at the entity relationship diagram (ERD) above from the first deliverable, we were able to determine the relationships between the "employees",  "dept_employees", and "titles" tables through the primary key (emp_no).
+
+2. How will we script the queries in order to create the "mentorship_eligibilty" table?
+  - After the relationships between the three tables became understood, the following was scripted in order to generated the aforementioned table:
 
 Deliverable 2:
 
