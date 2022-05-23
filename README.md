@@ -13,7 +13,8 @@ The purpose of this analysis is to help prepare Bobby’s manager for the “sil
 Using the ERD created in this module as a reference, create a Retirement Titles table that holds all the titles of employees who were born between January 1, 1952 and December 31, 1955. Because some employees may have multiple titles in the database—for example, due to promotions—we’ll need to use the DISTINCT ON statement to create a table that contains the most recent title of each employee. Then, use the COUNT() function to create a table that has the number of retirement-age employees by most recent job title. Finally, because we want to include only current employees in our analysis, be sure to exclude those employees who have already left the company. In order to conclude the aforementioned items, the following processes were undertaken:
 
 1. What are the data relationships between tables needed to create this deliverable?
-  -Looking at the ERD
+  2. 
+  - Looking at the ERD
 
 ERD:
 
