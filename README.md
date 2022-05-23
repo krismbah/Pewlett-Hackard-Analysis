@@ -66,9 +66,14 @@ To summarize, the following questions were asked and the subsequent additional q
 
 1. How many roles will need to be filled as the "silver tsunami" begins to make an impact?
     - 72,458 roles will need to be filled.
+
+Query 5:
+
+![Query_5](https://raw.githubusercontent.com/krismbah/Pewlett-Hackard-Analysis/main/Query5.png)
+
 2. Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
-    - There are 240,124 current employees. Of those employees, 167,666 are not retirement eligible. With only 1549 qualified retirement-ready employees available to mentor, each mentor would need to oversee 108 employees. This does not seem feasibile and it is my opinion that there not enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees.
+    - With only 1549 qualified retirement-ready employees available to mentor, each mentor would need to oversee 46 potentially new employees. This does not seem feasibile and it is my opinion that there are not enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees.
 
-Current Employees:
+Query 6:
 
-![current_emp](https://raw.githubusercontent.com/krismbah/Pewlett-Hackard-Analysis/main/Query5.png)
+![Query_6](https://raw.githubusercontent.com/krismbah/Pewlett-Hackard-Analysis/main/Query6.png)
